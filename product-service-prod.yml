@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    username: ${PRODUCT_DB_USER}
+    password: ${PRODUCT_DB_PASSWORD}
+    url: ${PRODUCT_DB_URL}
+  jpa:
+    properties:
+      hibernate:
+        format_sql: false
+        show_sql: false
+
+external:
+  discovery-service-url: ${DISCOVERY_SERVICE_URL}
+
