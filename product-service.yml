@@ -52,6 +52,5 @@ spring:
         format_sql: true
         # говорим hibernate показывать sql запросы в логах (для отладки и тестирования)
         show_sql: true
-    open-in-view: false
-  # https://stackoverflow.com/a/69739888
+
 
